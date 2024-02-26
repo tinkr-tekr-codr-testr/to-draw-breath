@@ -1,0 +1,7 @@
+{
+  "name": "To Draw Breath",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
