@@ -12,7 +12,7 @@ import { TallyKeeperService } from 'src/app/services/tally-keeper.service';
   standalone: true,
   imports: [IonCardTitle, IonCardHeader, IonLabel, IonButton, IonCard, IonCardContent, AsyncPipe]
 })
-export class TestComponent  implements AfterViewInit {
+export class TallyButtonComponent  implements AfterViewInit {
   @ViewChild(IonCard, { read: ElementRef }) 
   card!: ElementRef<HTMLIonCardElement>;
 

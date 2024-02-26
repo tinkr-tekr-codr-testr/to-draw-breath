@@ -1,0 +1,34 @@
+<ng-template #score>
+  <ion-toolbar>
+    <ion-title>
+      <span>
+          Tally: {{tlyKpr.tally | async}} / {{tlyKpr.tallyThreshold | async}}
+      </span>
+      
+      <span class="right">
+          Score Total: {{tlyKpr.totalScore | async}} / {{tlyKpr.sessionGoal}}
+      </span>
+    </ion-title>
+  </ion-toolbar>
+</ng-template>
+
+<ng-template #break>
+  <ion-toolbar>
+    <ion-title>
+      <span>
+          Congratulations! Break for: 
+      </span>
+      
+    </ion-title>
+  </ion-toolbar>
+</ng-template>
+
+<ion-header [translucent]="true">
+
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div id="container">
+      <tally-button></tally-button>
+  </div>
+</ion-content>

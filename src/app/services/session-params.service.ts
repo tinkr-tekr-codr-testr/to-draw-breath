@@ -7,6 +7,7 @@ export class SessionParamsService {
 
   sessionGoal = 25;
   initialTallyThreshold = 5;
+  breakTime = 60;
 
   constructor() { }
 }
